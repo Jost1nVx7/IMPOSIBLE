@@ -10,16 +10,16 @@ package espoch.edu.ec.mavenproject1;
  */
 public class Mavenproject1 {
 
-    public class TablaDelDos {
+
     public static void main(String[] args) {
         int i = 1; // Inicializamos el contador
 
         // Usamos un bucle while para mostrar la tabla del 2
-        while (i <= 20) {
-            int resultado = 3 * i; // Calculamos el resultado
-            System.out.println("2 x " + i + " = " + resultado); // Mostramos el resultado
+        while (i <= 10) {
+            int resultado = 4 * i; // Calculamos el resultado
+            System.out.println("4 x " + i + " = " + resultado); // Mostramos el resultado
             i++; // Incrementamos el contador
         }
     }
 }
-}
+
