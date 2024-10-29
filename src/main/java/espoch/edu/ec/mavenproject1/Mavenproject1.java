@@ -15,9 +15,9 @@ public class Mavenproject1 {
         int i = 1; // Inicializamos el contador
 
         // Usamos un bucle while para mostrar la tabla del 2
-        while (i <= 10) {
-            int resultado = 4 * i; // Calculamos el resultado
-            System.out.println("4 x " + i + " = " + resultado); // Mostramos el resultado
+        while (i <= 12) {
+            int resultado = 5 * i; // Calculamos el resultado
+            System.out.println("5 x " + i + " = " + resultado); // Mostramos el resultado
             i++; // Incrementamos el contador
         }
     }
